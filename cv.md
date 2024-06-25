@@ -20,3 +20,8 @@ multiply(3,3)
 ```
 ### Projects
 *I have no experience in programming and projects too.*
+### Education
+*I’m an engineer. No programming courses.*
+### Language
+ - Russian native
+ - English basic
