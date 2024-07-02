@@ -52,8 +52,13 @@ body {
   margin: 0 auto;
 }
 
+.nav {
+  width: 100%;
+}
+
 .nav-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: flex-end;
   align-items: center;
   list-style: none;
@@ -96,6 +101,7 @@ img {
 
 .section-profile {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   width: 100%;
@@ -145,5 +151,17 @@ code {
 @media (max-width: 768px) {
   .section {
     width: 100%;
+  }
+
+  @media (max-width: 460px) {
+    .main-title {
+      font-size: 34px;
+    }
+
+    img {
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+  }
   }
 }
