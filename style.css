@@ -63,6 +63,7 @@ body {
   align-items: center;
   list-style: none;
 }
+
 .nav-link {
   padding: 0 20px;
   line-height: 30px;
@@ -153,10 +154,10 @@ code {
     width: 100%;
   }
 
-  @media (max-width: 460px) {
-    .main-title {
-      font-size: 34px;
-    }
+@media (max-width: 460px) {
+   .main-title {
+     font-size: 34px;
+   }
 
     img {
       width: 250px;
